@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>YOUR NAME — Portfolio</title>
+  <meta name="description" content="Bioinformatics & Computational Biology — Portfolio of YOUR NAME" />
+  <meta property="og:title" content="YOUR NAME — Portfolio" />
+  <meta property="og:description" content="Bioinformatics & Computational Biology — Portfolio of YOUR NAME" />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0d0d0d" />
+  <link rel="preload" href="styles.css" as="style">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <script defer src="script.js"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "YOUR NAME",
+    "jobTitle": "Bioinformatician",
+    "url": "https://your-domain-or-github.io",
+    "sameAs": ["https://github.com/yourhandle", "https://www.linkedin.com/in/yourhandle/"]
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top">YOUR NAME</a>
+    <nav aria-label="Primary">
+      <button id="themeToggle" aria-label="Toggle color theme">☀︎</button>
+      <a href="#projects">Projects</a>
+      <a href="#publications">Publications</a>
+      <a href="#skills">Skills</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a class="cv" href="assets/CV.pdf" target="_blank" rel="noopener">CV</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-label="Intro">
+      <h1>Bioinformatics × Cancer Immunology</h1>
+      <p class="lede">I build tidy, reproducible analyses for RNA‑seq, immune deconvolution, and CRISPR data. Currently in Stockholm; open to RA/PhD roles.</p>
+      <div class="cta-row">
+        <a class="btn primary" href="#projects">See projects</a>
+        <a class="btn" href="mailto:you@example.com">Email me</a>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Featured Projects</h2>
+      <div id="projectGrid" class="grid" role="list"></div>
+      <template id="projectCardTpl">
+        <article class="card" role="listitem">
+          <div class="card-badges"></div>
+          <h3 class="card-title"></h3>
+          <p class="card-desc"></p>
+          <div class="card-links"></div>
+        </article>
+      </template>
+    </section>
+
+    <section id="publications" class="section">
+      <h2>Publications & Preprints</h2>
+      <ul class="pub-list">
+        <li>
+          <span class="pub-title">Immune deconvolution in canine mammary tumors validates EPIC and CIBERSORTx.</span>
+          <span class="pub-venue">Manuscript in preparation, 2025.</span>
+          <a href="#" class="pub-link" aria-label="View preprint (opens in new tab)" target="_blank" rel="noopener">Preprint</a>
+        </li>
+        <li>
+          <span class="pub-title">Empathic AI: Emotionally intelligent chatbots and mental health.</span>
+          <span class="pub-venue">AI &amp; Society (under review), 2025.</span>
+        </li>
+      </ul>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <div class="grid skills">
+        <div>
+          <h3>Data</h3>
+          <ul>
+            <li>RNA‑seq · DESeq2 · limma</li>
+            <li>Immune deconvolution: EPIC, CIBERSORTx</li>
+            <li>GSVA · GSEA · pathway analysis</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Code</h3>
+          <ul>
+            <li>Python (pandas, scikit‑learn)</li>
+            <li>R (tidyverse, Bioconductor)</li>
+            <li>Nextflow / Snakemake · Git</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Wet Lab</h3>
+          <ul>
+            <li>CRISPRi‑dCas9‑KRAB</li>
+            <li>qPCR / PCR</li>
+            <li>Cell culture (CMT‑U27, DD‑1)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>I'm a bioinformatics graduate working at the interface of comparative oncology and immunology. I enjoy turning messy datasets into clear, decision‑ready figures and reproducible pipelines. I care about readable code, honest uncertainty, and good plots.</p>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <ul class="contact">
+        <li><a href="mailto:you@example.com">you@example.com</a></li>
+        <li><a href="https://github.com/yourhandle" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/yourhandle/" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>&copy; <span id="year"></span> YOUR NAME. Built with plain HTML/CSS/JS. </small>
+  </footer>
+</body>
+</html>

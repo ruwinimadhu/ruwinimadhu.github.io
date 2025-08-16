@@ -1,0 +1,59 @@
+[
+  {
+    "title": "CMT Immune Landscape — EPIC vs CIBERSORTx",
+    "description": "Cross‑method validation on GSE136197 CMT RNA‑seq. Includes QC, signature harmonization, and histology correlation.",
+    "tags": [
+      "R",
+      "EPIC",
+      "CIBERSORTx"
+    ],
+    "links": [
+      {
+        "label": "Repo",
+        "href": "https://github.com/yourhandle/cmt-immune-deconv"
+      },
+      {
+        "label": "Poster",
+        "href": "#"
+      }
+    ]
+  },
+  {
+    "title": "CRISPRi‑dCas9‑KRAB Platform (CMT‑U27)",
+    "description": "Bench‑to‑bytes workflow: Lipofection, antibiotic selection, qPCR validation, and analysis notebook.",
+    "tags": [
+      "CRISPRi",
+      "qPCR",
+      "R/Python"
+    ],
+    "links": [
+      {
+        "label": "Methods",
+        "href": "#"
+      },
+      {
+        "label": "Notebook",
+        "href": "#"
+      }
+    ]
+  },
+  {
+    "title": "Stress-from-Text (Lightweight NLP)",
+    "description": "Log‑reg + transformers‑lite baseline for stress detection using public text datasets. Clean reproducible pipeline.",
+    "tags": [
+      "Python",
+      "NLP",
+      "scikit-learn"
+    ],
+    "links": [
+      {
+        "label": "Repo",
+        "href": "https://github.com/yourhandle/stress-nlp"
+      },
+      {
+        "label": "Demo",
+        "href": "#"
+      }
+    ]
+  }
+]
